@@ -53,17 +53,27 @@ header p{
     margin-top: 25px;
 }
 
+
 .caixa_link{
-    /* border: solid 1px red; */
     width: 100%;
     text-align: center;
-    /* padding: 80px 50px; */
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #f5af5e94;
+    transition: 0.2s;
+    /* border: 1px solid green; */
+}
+
+.caixa_link:hover{
+    transform: scale(1.02);
 }
 
 .caixa_link a img{
     width: 100%;
+    height: 100%;
+    object-fit: cover; /* garante que a imagem preencha sem distorcer demais */
     border-radius: 15px;
+    /* border: solid white 1px; */
+    display: block; /* evita espaços abaixo da imagem */
 }
 
 .redes_sociais{
@@ -81,7 +91,8 @@ header p{
     padding: 15px;
     background: #f5af5e;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
+    color: black;
 }
 
 
