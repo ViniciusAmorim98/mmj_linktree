@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.marrom{
+    color: #f5af5e;
+}
+
+body{
+    background: black;
+    color: white;
+    background-image: url(img/back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.container{
+    /* border:  solid 1px red; */
+    width: 600px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid 1px red; */
+}
+
+#nome_mmj{
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+header p{
+    text-align: center;
+    /* margin-bottom: 10px; */
+    margin: 0 50px 10px 50px;
+}
+
+/*caixa_links*/
+
+.caixa_links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.caixa_link{
+    /* border: solid 1px red; */
+    width: 100%;
+    text-align: center;
+    /* padding: 80px 50px; */
+    border-radius: 10px;
+}
+
+.caixa_link a img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.redes_sociais{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rede button i{
+    font-size: 25px;
+}
+
+.rede button{
+    padding: 15px;
+    background: #f5af5e;
+    border: none;
+    border-radius: 15px;
+}
+
+
+footer{
+    margin-top: 20px;
+    padding: 50px;
+}
+
+
+/* Estiliza a barra de rolagem inteira */
+::-webkit-scrollbar {
+    width: 8px;
+    /* Largura da barra de rolagem */
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+
+/* Barra de rolagem em si */
+::-webkit-scrollbar-thumb {
+    background: #f5af5e;
+    border-radius: 10px;
+}
+
+/* Quando o mouse passa sobre a barra */
+::-webkit-scrollbar-thumb:hover {
+    background: #f59a32;
+}

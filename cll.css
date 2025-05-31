@@ -1,0 +1,13 @@
+@media (max-width: 500px) {
+    .container{
+        width: 90%;
+    }
+
+    body{
+        background-image: url(img/back_cll.png);
+    }
+
+    header p{
+        margin: 0 0 10px 0;
+    }
+}
